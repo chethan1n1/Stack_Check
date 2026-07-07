@@ -1,0 +1,41 @@
+{
+  "Brand Variable": [
+    "Brand_.*"
+  ],
+  "Familiarity": [
+    "FAM_.*"
+  ],
+  "Consideration": [
+    "CONSIDERATION_.*"
+  ],
+  "Imagery": [
+    "IMAGERY_.*"
+  ],
+  "CEP": [
+    "CAT_ENT_PTS_.*"
+  ],
+  "Affinity": [
+    "AFFINITY_.*"
+  ],
+  "Unique": [
+    "UNIQUE_.*"
+  ],
+  "MeetsNeeds": [
+    "MEETS_NEEDS_.*"
+  ],
+  "Dynamic": [
+    "DYNAMIC_.*"
+  ],
+  "DemandPower": [
+    "BrandPowerGrid_Power"
+  ],
+  "MFI": [
+    "BrandPowerGrid_M_F_I"
+  ],
+  "DFI": [
+    "BrandPowerGrid_D_F_I"
+  ],
+  "SFI": [
+    "BrandPowerGrid_S_F_I"
+  ]
+}

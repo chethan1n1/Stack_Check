@@ -1,0 +1,12 @@
+{
+  "name": "stackcheck-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Desktop Shell for StackCheck DP Data Validation Platform",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.2.0"
+  }
+}

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - uploads_data:/workspace/uploads
+      - reports_data:/workspace/reports
+      - db_data:/workspace/db
+    environment:
+      - DATABASE_URL=sqlite:////workspace/db/stackcheck.db
+      - UPLOAD_DIR=/workspace/uploads
+      - REPORT_DIR=/workspace/reports
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  uploads_data:
+  reports_data:
+  db_data:

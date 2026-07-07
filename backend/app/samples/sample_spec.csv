@@ -1,0 +1,9 @@
+variable_name,variable_label,category,required,data_type,is_binary,expected_values,value_labels
+RESP_ID,Respondent Identifier,Core,Yes,Integer,No,,
+BRAND,Survey Stacked Brand Code,Brand,Yes,Integer,No,,1 = Coca-Cola; 2 = Pepsi; 3 = Dr Pepper
+AGE,Age of Respondent,Core,Yes,Integer,No,,
+GENDER,Gender of Respondent,Core,Yes,Integer,No,,1 = Male; 2 = Female
+AWARE_COKE,Spontaneous Awareness Coca-Cola,Dependent,Yes,Integer,Yes,0;1,0 = No; 1 = Yes
+CEP_MORNING,CEP - Good in the morning,CEP,Yes,Integer,Yes,0;1,0 = No; 1 = Yes
+IMG_REFRESH,Imagery - Is Refreshing,Imagery,Yes,Integer,Yes,0;1,0 = No; 1 = Yes
+IMG_MODERN,Imagery - Is Modern Brand,Imagery,No,Integer,Yes,0;1,0 = No; 1 = Yes
